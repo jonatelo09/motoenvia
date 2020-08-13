@@ -1,0 +1,1 @@
+{"statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","error":0,"exit_code":0,"status":1,"mode":"simple","timeout":0,"data":[{"type":"main","homedir":"/home/motoenvia","user":"motoenvia"},{"type":"logaccess","homedir":"/etc/apache2/logs/domlogs/motoenvia","user":"motoenvia_logs"}],"version":"2.4","action":"fetch"}

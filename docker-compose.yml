@@ -1,0 +1,46 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: lautaro
+        uid: 1000
+      context: ./
+      dockerfile: Dockerfile
+    image: googlemaps_app
+    container_name: googlemaps_app
+    restart: unless-stopped
+    working_dir: /var/www/googlemaps
+    volumes:
+      - ./:/var/www/googlemaps:cached
+    networks:
+      - googlemaps
+
+  mysql:
+    image: mysql:5.7
+    container_name: googlemaps_mysql
+    restart: unless-stopped
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    networks:
+      - googlemaps
+
+  nginx:
+    image: nginx:alpine
+    container_name: googlemaps_nginx
+    restart: unless-stopped
+    ports:
+      - 80:80
+    volumes:
+      - ./:/var/www/googlemaps:cached
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - googlemaps
+
+networks:
+  googlemaps:
+    driver: bridge

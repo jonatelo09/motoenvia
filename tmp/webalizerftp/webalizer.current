@@ -1,0 +1,130 @@
+# Webalizer V2.23-08 Incremental Data - 08/11/2020 10:46:11
+2020 8 11 10 46 11
+4 4 1 4 0 0 3878289 4 1 1
+1 495 495 11 11
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+4 4 3878289 1 4 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+4 4 3878289 4
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/home/motoenvia/public_html/error_log
+0 1 0 3875878 1 0
+/home/motoenvia/error_log
+0 1 21259744 564 0 0
+/home/motoenvia/public_html/
+0 1 21259616 1823 0 0
+/home/motoenvia/public_html/robots.txt
+0 1 21259488 24 0 0
+# End Of Table - urls
+# -sites- (monthly)
+cpe-70-114-156-68.austin.res.rr.com
+0 4 4 3878289 1 1597142771
+/home/motoenvia/error_log
+# End Of Table - sites (monthly)
+# -sites- (daily)
+cpe-70-114-156-68.austin.res.rr.com
+0 4 4 3878289 1 1597142771
+/home/motoenvia/error_log
+# End Of Table - sites (daily)
+# -referrers- 
+# End Of Table - referrers
+# -agents- 
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+motoenvia
+0 4 4 3878289 1 1597142771
+# End Of Table - usernames
